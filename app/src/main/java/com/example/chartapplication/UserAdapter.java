@@ -1,5 +1,6 @@
 package com.example.chartapplication;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,6 +41,19 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.viewholder> {
         holder.username.setText(user.userName);
         holder.userstatus.setText(user.status);
         Picasso.get().load(user.profilepoc).into(holder.userimg);
+
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(mainActivity, chatWin.class);
+                intent.putExtra("namee",user.getUserName());
+                intent.putExtra("receiverimg",user.getProfilepoc());
+                intent.putExtra("uid",user.getUserId());
+                mainActivity.startActivity(intent);
+
+            }
+        });
 
 
 
