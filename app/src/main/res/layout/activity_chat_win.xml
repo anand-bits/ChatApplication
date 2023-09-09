@@ -44,13 +44,14 @@
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/msgadapter"
         android:layout_width="match_parent"
         android:layout_height="500dp"
         android:layout_below="@id/ll21"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="155dp"
-        android:layout_marginBottom="34dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginBottom="33dp"
         android:padding="13.00dp" />
 
     <LinearLayout
@@ -73,12 +74,13 @@
             android:layout_weight="1">
 
             <EditText
+                android:id="@+id/writemsg"
                 android:layout_width="258dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
                 android:background="@null"
-                android:fontFamily="@font/poppins_regular"
 
+                android:fontFamily="@font/poppins_regular"
                 android:hint="Type the message ..."
                 android:paddingStart="13.00dp" />
 
@@ -87,18 +89,19 @@
 
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/sendbtnn"
             android:layout_width="100.50dp"
             android:layout_height="45.50dp"
-            android:background="@color/white"
-            app:cardCornerRadius="32.50dp"
             android:layout_marginStart="6.50dp"
             android:layout_marginEnd="6.10dp"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:background="@color/white"
+            app:cardCornerRadius="32.50dp">
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/sendbut"/>
+                android:background="@drawable/sendbut" />
 
 
         </androidx.cardview.widget.CardView>
