@@ -1,6 +1,6 @@
 # Android Chat Application
 
-![App Screenshots](screenshots.png) <!-- Replace with screenshots of your app -->
+To see a Image of the app's features, click [here](https://drive.google.com/drive/folders/1RlDFbG483sFPLtGJX2eQ7uF1RCP3Nv-R?usp=share_link).<!-- Replace with screenshots of your app -->
 
 ## Overview
 
@@ -13,10 +13,7 @@ This Android Chat Application allows users to log in and chat with other users i
 - **Real-time Messaging:** Chat with other users in real-time, with messages instantly delivered to the recipient.
 
 - **User Profiles:** Customize your profile with a username and profile picture.
-
-## Demo
-
-![Demo Gif](demo.gif) <!-- Include a demo GIF or video showcasing your app in action -->
+ <!-- Include a demo GIF or video showcasing your app in action -->
 
 ## Getting Started
 
