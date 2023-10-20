@@ -32,4 +32,4 @@ Follow these instructions to set up and run the project on your local machine.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/android-chat-app.git
+   git clone https://https://github.com/anand-bits/ChatApplication
